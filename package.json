@@ -1,0 +1,32 @@
+{
+  "name": "tauri2astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "web:dev": "astro dev",
+    "web:build": "astro check && astro build",
+    "web:preview": "astro preview",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "astro": "astro",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/react": "^3.6.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/ts-plugin": "^1.8.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.11.0",
+    "kaplay": "https://pkg.pr.new/marklovers/kaplay@169c998",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-beta.20",
+    "daisyui": "^4.12.2"
+  }
+}
